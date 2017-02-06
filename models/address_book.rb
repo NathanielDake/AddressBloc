@@ -57,7 +57,11 @@ class AddressBook
     end
 
     return nil
-    
+  end
+
+  def nuke
+    @entries = []
+    puts "All entries deleted"
   end
 
 end
